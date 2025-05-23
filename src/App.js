@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ fontFamily: 'sans-serif', textAlign: 'center', marginTop: '50px' }}>
+      <h1>🥩 Meat Meter</h1>
+      <p>Willkommen bei Meat Meter – deinem persönlichen Fleisch-Tracker.</p>
+      <button style={{
+        padding: '10px 20px',
+        fontSize: '18px',
+        backgroundColor: '#c0392b',
+        color: '#fff',
+        border: 'none',
+        borderRadius: '8px',
+        cursor: 'pointer'
+      }}>
+        Bestellung aufgeben 🍔
+      </button>
     </div>
   );
 }
