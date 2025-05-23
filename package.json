@@ -1,5 +1,6 @@
 {
   "name": "meat-meter",
+  "homepage": "https://initialising.github.io/meat-meter/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
